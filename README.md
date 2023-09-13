@@ -146,7 +146,7 @@ for /L %%i in (1,1,%cores%) do (
 
 start "" "%~dp0\rw.bat"
 ```
-- En el lugar de ``set "RW_PATH=ruta de RW.exe"``, poner la carpeta en donde se encuentra **RW.exe**. Normalemnte es aquí: ``C:\Program Files\RW-Everything\Rw.exe``.
+- En el lugar de ``set "RW_PATH=ruta de RW.exe"``, poner la carpeta en donde se encuentra **RW.exe**. Normalmente es aquí: ``C:\Program Files\RW-Everything\Rw.exe``.
 
 - Guardar el cambio hecho en el archivo .bat, asignarle el nombre **rw**, pero con la extensión al final .bat.
 
